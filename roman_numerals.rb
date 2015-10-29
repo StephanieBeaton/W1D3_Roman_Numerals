@@ -97,12 +97,12 @@ def to_roman( decimal_number)
     # puts "key #{key}"
     # puts "value #{value}"
 
-    divisor   = remainder / key
+    quotient   = remainder / key
     remainder = remainder % key
 
-    roman_numeral << value * divisor
+    roman_numeral << value * quotient
 
-    # puts "divisor = #{divisor}"
+    # puts "quotient = #{quotient}"
     # puts "remainder = #{remainder}"
   end
 
@@ -176,12 +176,12 @@ def to_roman_new( decimal_number)
     # puts "key #{key}"
     # puts "value #{value}"
 
-    divisor   = remainder / key
+    quotient   = remainder / key
     remainder = remainder % key
 
-    roman_numeral << value * divisor
+    roman_numeral << value * quotient
 
-    # puts "divisor = #{divisor}"
+    # puts "quotient = #{quotient}"
     # puts "remainder = #{remainder}"
   end
 
